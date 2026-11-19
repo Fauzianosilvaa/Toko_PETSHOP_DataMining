@@ -43,5 +43,48 @@ Analisis mencakup:
 - Visualisasi Support, Confidence, dan Lift.
 - Identifikasi 8 aturan asosiasi dengan Lift tertinggi.
 - Pengujian variasi Minimum Support dan Minimum Confidence.
-**NIM: 24343115 | S1 Teknik Informatika**
-  
+
+
+## Praktikum Data Mining – Evaluasi Model Klasifikasi
+
+## Deskripsi
+Praktikum ini membahas evaluasi model klasifikasi menggunakan Python dengan studi kasus deteksi transaksi pembayaran digital (fraud).
+
+## Tujuan
+- Memahami Confusion Matrix (TP, TN, FP, FN).
+- Menghitung Accuracy, Precision, Recall, dan F1-Score.
+- Melatih model klasifikasi Decision Tree.
+- Memvisualisasikan hasil evaluasi model.
+- Menganalisis pengaruh threshold terhadap hasil prediksi.
+
+## Tools dan Library
+- Python
+- NumPy
+- Pandas
+- Scikit-learn
+- Matplotlib
+- JupyterLab
+
+## Dataset
+Menggunakan 500 data transaksi sintetis dengan fitur:
+- `amount`
+- `hour`
+- `new_device`
+- `foreign_ip`
+- `isFraud`
+
+## Cara Menjalankan
+1. Buka JupyterLab.
+2. Buka file notebook `.ipynb`.
+3. Pastikan library sudah terinstal.
+4. Jalankan seluruh cell secara berurutan.
+
+## Model dan Evaluasi
+Model yang digunakan adalah **Decision Tree Classifier** dengan evaluasi:
+- Confusion Matrix
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Baseline Classification
+- Threshold Experiment  
